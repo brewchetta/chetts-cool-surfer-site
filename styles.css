@@ -348,6 +348,55 @@ a { color: inherit; }
 
 .card--pink .card__icon { background: var(--turquoise); }
 
+/* ---------- Surf Spots page ---------- */
+.hero--short { min-height: 0; }
+.hero--short .hero__sun { top: 8%; width: clamp(200px, 36vw, 380px); }
+.hero--short .hero__content { padding: 2.5rem 1rem 11rem; }
+.hero--short .hero__title { font-size: clamp(3.5rem, 13vw, 8rem); }
+
+.nav__links a[aria-current="page"] { background: var(--yellow); }
+
+.section--tight { padding-top: 0; }
+
+.section__title--turquoise { background: var(--turquoise); color: var(--navy); }
+
+.section__intro {
+  margin: -0.75rem 0 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.spot-home h3 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: var(--pink); }
+
+.spot__place {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.15rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--white);
+  border: 3px solid var(--navy);
+  border-radius: 999px;
+}
+
+.card--yellow { background: var(--yellow); }
+
 /* ---------- Footer ---------- */
 .footer {
   position: relative;
