@@ -7,6 +7,7 @@
   --navy: #0b1f4b;
   --sand: #fff4d6;
   --white: #ffffff;
+  --text: crimson;
 
   --font-display: "Lilita One", "Arial Black", Impact, sans-serif;
   --font-body: "Poppins", "Segoe UI", system-ui, sans-serif;
@@ -25,7 +26,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: var(--font-body);
-  color: var(--navy);
+  color: var(--text);
   background: var(--sand);
   line-height: 1.65;
   overflow-x: hidden;
